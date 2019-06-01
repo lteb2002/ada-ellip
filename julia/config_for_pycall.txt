@@ -1,0 +1,5 @@
+
+ENV["PYTHON"] = "D:\\Programs\\Python\\Python37\\python.exe" # example for Windows
+import Pkg
+Pkg.build("PyCall")
+using PyPlot
